@@ -16,7 +16,7 @@ const Cards = (props) => {
     <h1 className="text-3xl text-white font-bold">No Data Found</h1>
   )}
                
-               { props.courses.map((course) => {
+               { Array.isArray(props.courses) && props.courses.map((course) => {
                     return <Card course={course} key={course.publishedAt} likedCourses={likedCourses} setLikedCourses={setLikedCourses} />;
                 })
             }

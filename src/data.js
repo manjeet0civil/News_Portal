@@ -21,8 +21,8 @@ export const filterData = [
   },
 ];
 
-export const apiUrl = "https://newsapi.org/v2/everything?q=";
-export const API_KEY="5ef09fce2ebc479595d9f88686241451";
+export const apiUrl = "/api/news?q=";
+export const API_KEY = undefined; // not used on client anymore
 
-// https://newsapi.org/v2/everything?q=latest&apiKey=5ef09fce2ebc479595d9f88686241451
+// example proxied url: /api/news?q=latest
 
