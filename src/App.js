@@ -20,20 +20,28 @@ const App = () => {
     setLoading(true);
     try {
       const url = getNewsUrl(category);
+      console.log("🔗 Fetching URL:", url);
       const res = await fetch(url);
+      console.log("🔗 Response Status:", res);
       let output = null;
       try {
         output = await res.json();
-      } catch (_) {
+        console.log("📄 Full API Response:", output);
+        console.log("🔗 Response Data:", output); // Same data, different label
+        console.log("📊 Articles count:", output?.articles?.length || 0);
+      } catch (error) {
+        console.log("❌ Error parsing JSON:", error);
         output = null;
       }
 
       // Save data
       if (!res.ok) {
-        console.log("API error", { status: res.status, body: output });
+        console.log("❌ Request failed - Status:", res.status);
+        console.log("❌ Error response:", output);
         toast.error(output?.message || `Request failed (${res.status})`);
         setCourses([]);
       } else {
+        console.log("✅ Success! Setting articles:", output?.articles?.length || 0);
         setCourses(Array.isArray(output?.articles) ? output.articles : []);
       }
       // setCourses(output);
