@@ -12,7 +12,9 @@ const Cards = (props) => {
   
     return (
         <div className="flex flex-wrap justify-center gap-4 mb-4">
-            { props.courses.length === 0 && <h1 className="text-3xl text-white font-bold">No Data Found</h1>}
+            {(!props.courses || props.courses.length === 0) && (
+    <h1 className="text-3xl text-white font-bold">No Data Found</h1>
+  )}
                
                { props.courses.map((course) => {
                     return <Card course={course} key={course.publishedAt} likedCourses={likedCourses} setLikedCourses={setLikedCourses} />;
