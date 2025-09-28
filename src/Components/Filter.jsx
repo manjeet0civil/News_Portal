@@ -4,11 +4,11 @@ const Filter = (props) => {
   // console.log(props);
   let category = props.category;
   let setCategory = props.setCategory;
-  let setQuery = props.setQuery;
+
 
   function filterHandler(title) {
     setCategory(title);
-    setQuery(title);
+    
 
   }
 
