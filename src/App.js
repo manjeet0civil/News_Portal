@@ -14,7 +14,6 @@ const App = () => {
   const [courses, setCourses] = useState([]);
   const [loading, setLoading] = useState(true);
   const [category, setCategory] = useState("latest");
-  const [query, setQuery] = useState("latest");
 
   const fetchData = async () => {
     setLoading(true);
@@ -22,7 +21,7 @@ const App = () => {
       const url = getNewsUrl(category);
       console.log("🔗 Fetching URL:", url);
       const res = await fetch(url);
-      console.log("🔗 Response Status:", res);
+      console.log("🔗 Response Status:", res.status);
       let output = null;
       try {
         output = await res.json();
@@ -54,7 +53,7 @@ const App = () => {
 
   useEffect(() => {
     fetchData();
-  }, [category]);
+  }, [category]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="min-h-screen flex-col flex bg-bgDark2">
@@ -72,7 +71,6 @@ const App = () => {
             filterData={filterData}
             category={category}
             setCategory={setCategory}
-            setQuery={setQuery}
 
           />
         </div>

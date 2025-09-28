@@ -22,10 +22,16 @@ export const filterData = [
 ];
 
 export function getNewsUrl(category) {
+  if (!category) return "";
   const query = encodeURIComponent(category);
   const key = process.env.REACT_APP_NEWS_API_KEY;
-  return `https://newsapi.org/v2/everything?q=${query}&apiKey=${key || ""}`;
+  
+  // Use direct NewsAPI for development, proxy for production
+  if (process.env.NODE_ENV === 'development' && key) {
+    return `https://newsapi.org/v2/everything?q=${query}&apiKey=${key}`;
+  }
+  
+  // Fallback to proxy (for production or when no local key)
+  return `/api/news?q=${query}`;
 }
-
-// example proxied url: /api/news?q=latest
 

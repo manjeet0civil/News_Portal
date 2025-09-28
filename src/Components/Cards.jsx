@@ -5,7 +5,6 @@ const Cards = (props) => {
     console.log(props.category);
     console.log(props.courses);
 
-    let category = props.category;
     const [likedCourses, setLikedCourses] = useState([]);
     
 
@@ -16,10 +15,16 @@ const Cards = (props) => {
     <h1 className="text-3xl text-white font-bold">No Data Found</h1>
   )}
                
-               { Array.isArray(props.courses) && props.courses.map((course) => {
-                    return <Card course={course} key={course.publishedAt} likedCourses={likedCourses} setLikedCourses={setLikedCourses} />;
-                })
-            }
+               {Array.isArray(props.courses) && props.courses.length > 0 ? (
+  props.courses.map((course) => (
+    <Card 
+      key={course.publishedAt} 
+      course={course} 
+      likedCourses={likedCourses} 
+      setLikedCourses={setLikedCourses} 
+    />
+  ))
+) : null}
         </div>
     );
 };

@@ -1,8 +1,6 @@
-import { click } from '@testing-library/user-event/dist/click';
 import { FcLike, FcLikePlaceholder } from 'react-icons/fc';
 import { toast } from 'react-toastify';
 import { NavLink } from 'react-router-dom';
-import { useNavigate } from "react-router-dom";
 
 
 const Card = (props) => {
@@ -44,7 +42,7 @@ const Card = (props) => {
         <div className='bg-bgDark bg-opacity-80 w-[300px] h-[400px] rounded-md overflow-hidden ' 
              >
             <div className='relative '>
-                <img src={props.course.urlToImage} alt="Course Image" className='' />
+                <img src={props.course.urlToImage} alt="News article" className='' />
 
                 <div className='rounded-full w-[40px] h-[40px] bg-white absolute right-2 bottom-[-12px] grid place-items-center'>
                     <button onClick={(e) => {
