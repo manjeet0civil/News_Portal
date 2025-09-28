@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar";
 import Filter from "./Components/Filter";
 import Cards from "./Components/Cards";
 import Spinner from "./Components/Spinner";
-import { apiUrl, filterData } from "./data.js";
+import { filterData, getNewsUrl } from "./data.js";
 import { toast } from "react-toastify";
 import { useEffect, useState } from "react";
 import Search from "./Components/Search.jsx";
@@ -19,7 +19,8 @@ const App = () => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${apiUrl}${category}`);
+      const url = getNewsUrl(category);
+      const res = await fetch(url);
       let output = null;
       try {
         output = await res.json();
