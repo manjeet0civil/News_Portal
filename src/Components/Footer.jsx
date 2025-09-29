@@ -20,7 +20,7 @@ function Footer() {
         <FaLinkedin size={30} />
       </a>
        <a
-        href="https://github.com/yourusername"
+        href="https://github.com/manjeet0civil"
         target="_blank"
         rel="noreferrer"
         className="text-blue-800 hover:text-black"
