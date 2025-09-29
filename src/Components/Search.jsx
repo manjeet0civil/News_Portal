@@ -29,7 +29,7 @@ function Search(props) {
             </div>
             <div>
                 <button 
-                    className='bg-blue-500 text-white px-6 py-2 rounded-md mt-6 hover:bg-blue-600 transition-colors duration-200 hover:cursor-pointer'
+                    className='bg-blue-500 text-white px-6 py-2 rounded-md  hover:bg-blue-600 transition-colors duration-200 hover:cursor-pointer'
                     onClick={handleSearch}
                 >
                     Search
