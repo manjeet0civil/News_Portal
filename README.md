@@ -162,9 +162,7 @@ Open DevTools → Console to see detailed logs.
 4. Test locally
 5. Submit a pull request
 
-## License
 
-This project is open source and available under the MIT License.
 
 ## Contact
 
