@@ -162,8 +162,6 @@ Open DevTools → Console to see detailed logs.
 4. Test locally
 5. Submit a pull request
 
-
-
 ## Contact
 
 Developed by Manjeet Singh
