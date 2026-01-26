@@ -77,7 +77,6 @@ vercel --prod
 ```
 
 ## Environment Variables
-
 ### Local Development (.env.local)
 ```
 REACT_APP_NEWS_API_KEY=your_newsapi_key
