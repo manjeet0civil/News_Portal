@@ -153,16 +153,6 @@ The app includes detailed console logging:
 
 Open DevTools → Console to see detailed logs.
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test locally
-5. Submit a pull request
-
-## Contact
-
 Developed by Manjeet Singh
 - LinkedIn: https://www.linkedin.com/in/manjeet0civil
 - GitHub: https://github.com/manjeet0civil
