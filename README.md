@@ -121,8 +121,6 @@ This ensures:
 - ✅ CORS issues resolved
 - ✅ Rate limiting handled properly
 
-## Troubleshooting
-
 ### Common Issues
 
 1. **"API key is invalid" error**
