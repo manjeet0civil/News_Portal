@@ -39,21 +39,7 @@ A modern React-based news portal that fetches and displays news articles from Ne
    npm install
    ```
 
-3. **Set up environment variables**
-   - Copy `env.example` to `.env.local`
-   - Get your API key from https://newsapi.org/
-   - Add your key to `.env.local`:
-     ```
-     REACT_APP_NEWS_API_KEY=your_actual_api_key_here
-     ```
 
-4. **Start development server**
-   ```bash
-   npm start
-   ```
-
-5. **Open your browser**
-   - Navigate to `http://localhost:3000`
 
 ## Production Deployment (Vercel)
 
