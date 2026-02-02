@@ -136,7 +136,6 @@ The app includes detailed console logging:
 - ❌ Error details
 
 Open DevTools → Console to see detailed logs.
-
 Developed by Manjeet Singh
 - LinkedIn: https://www.linkedin.com/in/manjeet0civil
 - GitHub: https://github.com/manjeet0civil
