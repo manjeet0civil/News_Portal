@@ -127,7 +127,6 @@ This ensures:
    - Run `npm install` to ensure all dependencies are installed
    - Check for syntax errors in console
 
-### Debug Mode
 
 The app includes detailed console logging:
 - 🔗 URL being fetched
