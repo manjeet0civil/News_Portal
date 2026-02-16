@@ -19,7 +19,6 @@ A modern React-based news portal that fetches and displays news articles from Ne
 - **Icons**: React Icons
 - **Notifications**: React Toastify
 
-## Local Development Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
