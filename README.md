@@ -36,7 +36,7 @@ A modern React-based news portal that fetches and displays news articles from Ne
 2. **Install dependencies**
    ```bash
    npm install
-   ```
+ 
 
 
 
