@@ -127,11 +127,6 @@ This ensures:
    - Check for syntax errors in console
 
 
-The app includes detailed console logging:
-- 🔗 URL being fetched
-- 📡 Response status
-- 📄 Full API response
-- ❌ Error details
 
 Open DevTools → Console to see detailed logs.
 Developed by Manjeet Singh
