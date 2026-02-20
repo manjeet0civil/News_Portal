@@ -122,9 +122,6 @@ This ensures:
    - Use the serverless proxy (`/api/news`) instead of direct NewsAPI calls
    - Ensure NEWS_API_KEY is set in Vercel environment variables
 
-4. **Build failures**
-   - Run `npm install` to ensure all dependencies are installed
-   - Check for syntax errors in console
 
 
 
