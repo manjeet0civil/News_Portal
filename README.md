@@ -25,17 +25,7 @@ A modern React-based news portal that fetches and displays news articles from Ne
 - npm or yarn
 - NewsAPI account (free at https://newsapi.org/)
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <your-repo-url>
-   cd news-portal
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
  
 
 
