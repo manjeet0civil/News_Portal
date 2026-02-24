@@ -91,10 +91,6 @@ The app uses a smart API routing system:
 - **Development**: Direct calls to NewsAPI (with REACT_APP_NEWS_API_KEY)
 - **Production**: Proxy through `/api/news` (with NEWS_API_KEY in Vercel)
 
-This ensures:
-- ✅ API key security in production
-- ✅ CORS issues resolved
-- ✅ Rate limiting handled properly
 
 ### Common Issues
 
