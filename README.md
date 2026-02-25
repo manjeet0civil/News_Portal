@@ -104,9 +104,7 @@ The app uses a smart API routing system:
    - Verify API key is working: https://newsapi.org/v2/everything?q=latest&apiKey=YOUR_KEY
    - Check Vercel function logs if deployed
 
-3. **CORS errors**
-   - Use the serverless proxy (`/api/news`) instead of direct NewsAPI calls
-   - Ensure NEWS_API_KEY is set in Vercel environment variables
+
 
 
 
