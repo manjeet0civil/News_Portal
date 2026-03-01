@@ -25,13 +25,6 @@ A modern React-based news portal that fetches and displays news articles from Ne
 - npm or yarn
 - NewsAPI account (free at https://newsapi.org/)
 
-
- 
-
-
-
-## Production Deployment (Vercel)
-
 ### Automatic Deployment
 1. Connect your GitHub repository to Vercel
 2. Set environment variable in Vercel dashboard:
