@@ -97,7 +97,6 @@ The app uses a smart API routing system:
    
 
 
-
 Open DevTools → Console to see detailed logs.
 Developed by Manjeet Singh
 - LinkedIn: https://www.linkedin.com/in/manjeet0civil
