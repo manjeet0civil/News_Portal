@@ -94,8 +94,6 @@ The app uses a smart API routing system:
 2. **No data showing**
    - Check browser console for errors
    - Verify API key is working: https://newsapi.org/v2/everything?q=latest&apiKey=YOUR_KEY
-   
-
 
 Open DevTools → Console to see detailed logs.
 Developed by Manjeet Singh
