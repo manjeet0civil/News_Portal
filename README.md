@@ -76,7 +76,6 @@ src/
 api/
 └── news.js               # Vercel serverless API proxy
 ```
-
 ## API Configuration
 
 The app uses a smart API routing system:
