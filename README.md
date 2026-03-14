@@ -79,12 +79,10 @@ api/
 ## API Configuration
 
 The app uses a smart API routing system:
-
 - **Development**: Direct calls to NewsAPI (with REACT_APP_NEWS_API_KEY)
 - **Production**: Proxy through `/api/news` (with NEWS_API_KEY in Vercel)
 
 ### Common Issues
-
 1. **"API key is invalid" error**
    - Check if your NewsAPI key is correct
    - Verify the key is set in `.env.local` (local) or Vercel env vars (production)
