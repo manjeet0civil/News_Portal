@@ -40,7 +40,6 @@ npm i -g vercel
 # Login to Vercel
 vercel login
 
-# Deploy
 vercel --prod
 ```
 
