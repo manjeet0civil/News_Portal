@@ -39,8 +39,7 @@ npm i -g vercel
 # Login to Vercel
 vercel login
 
-vercel --prod
-```
+
 
 ## Environment Variables
 ### Local Development (.env.local)
