@@ -31,13 +31,6 @@ A modern React-based news portal that fetches and displays news articles from Ne
    - Add: `NEWS_API_KEY` = your NewsAPI key
 3. Deploy automatically on every push
 
-### Manual Deployment
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Login to Vercel
-vercel login
 
 
 
